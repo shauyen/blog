@@ -49,8 +49,10 @@ table {
 *,*:before,*:after{
 	box-sizing: border-box;
 }
+
+
 .course{
-    width: 1000px;
+    width: 1030px;
     margin: 0 auto;
 }
 ul{
@@ -60,17 +62,15 @@ ul{
 }
 li{
     margin: 10px;
-}
-li img{
-    width: 280px;
-}
-p {
+    width: 290px;
     white-space: normal;
-    word-wrap: break-word;
     word-break: break-word;
 }
+li img{
+    width: 290px;
+}
 .tag{
-    padding-bottom: 4px;
+    margin-bottom: 4px;
     display: flex;
     align-items: center;
 }
@@ -82,7 +82,7 @@ p {
 .tag .push{
     margin-left: 5px;
 }
-.tag .special{
+.tag .hot{
     display: block;
     color: white;
     font-size: 11px;
@@ -93,23 +93,22 @@ p {
     border-radius: 20px;
     margin-left: 7px;
 }
+.tag-hot{
+    margin-bottom: 1px;
+}
 li h2{
     font-size: 20px;
-    width: 280px;
-    white-space: normal;
-    word-break: break-word;
     line-height: 1.5;
-
 }
 li p {
-    width: 280px;
     font-size: 11px;
-    white-space: normal;
-    word-break: break-word;
-    padding-top: 4px;
-    padding-bottom: 8px;
+    margin-top: 4px;
+    margin-bottom: 8px;
     line-height: 1.5;
     color: gray;
+}
+.spacing{
+    margin-bottom: 1px;
 }
 .link{
     display: block;
